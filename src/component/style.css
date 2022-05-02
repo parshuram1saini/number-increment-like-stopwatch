@@ -1,11 +1,19 @@
 .button-frame
 {
      display: flex;
-     /* flex-wrap: wrap; */
+     flex-wrap: wrap;
      justify-content: center;
-     margin-top: 20%;
 }
 .ui.labeled.icon.button
 {
     margin: 1%;
+}
+.heading{
+    text-align: center;
+}
+   
+.head{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
 }

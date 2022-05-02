@@ -31,16 +31,19 @@ function Stopwatch() {
 
   return (
     <>
-      <div className="button-frame">
-        <button className="ui labeled icon button" onClick={handlestop}>
-          <i className="pause icon"></i>
-          {stop ? "Resume" : "Stop"}
-        </button>
-        <h1>{counter}</h1>
-        <button className="ui  labeled icon button" onClick={handlreset}>
-          <i className="left arrow icon"></i>
-          Reset
-        </button>
+      <div className="head">
+        <h1 className="heading">Number Increment</h1>
+        <div className="button-frame">
+          <button className="ui labeled icon button" onClick={handlestop}>
+            <i className="pause icon"></i>
+            {stop ? "Resume" : "Stop"}
+          </button>
+          <h1>{counter}</h1>
+          <button className="ui  labeled icon button" onClick={handlreset}>
+            <i className="left arrow icon"></i>
+            Reset
+          </button>
+        </div>
       </div>
     </>
   );

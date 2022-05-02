@@ -1,0 +1,11 @@
+.button-frame
+{
+     display: flex;
+     /* flex-wrap: wrap; */
+     justify-content: center;
+     margin-top: 20%;
+}
+.ui.labeled.icon.button
+{
+    margin: 1%;
+}
